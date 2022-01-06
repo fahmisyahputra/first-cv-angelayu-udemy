@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+  </head>
+  <body>
+
+    <h2>Hi! feel free to get in touch</h2>
+    <p>I'm so excited to work and collaborate with you</p>
+    <h3>Here's my contact details :</h3>
+     <ul>
+       <li><a href="#">Email</a></li>
+       <li><a href="#">Instagram</a></li>
+       <li><a href="#">WhatsApp</a></li>
+     </ul>
+<br>
+<hr>
+
+<form class="contact-me" action="mailto:dummy@gmail.com?subject=Feedback for you?" method="post">
+  <label for="">Your Name :</label>
+    <input type="text" name="" value=""><br>
+  <label for="">Your Email :</label>
+    <input type="email" name="" value=""><br>
+  <label for="">Your Message :</label><br>
+    <textarea name="" rows="8" cols="50"></textarea><br>
+  <input type="submit" name="">
+</form>
+
+<hr>
+<hr>
+     <form class="kelas-form" action="index.html" method="post">
+        <!-- action= saat klik submit, maka akan ke halaman yg dituju"  -->
+       <label for="nama">Your Name :</label>
+       <input type="text" name="nama" value=""><br>
+
+       <label for="g-mail">Your email* (*=required/wajib diisi) :</label>
+       <input type="email" name="g-mail" value="" required><br>
+
+       <label for="no-telp">Your telephone number :</label>
+       <input type="tel" name="no-telp" value=""><br>
+
+       <label for="tanggal-bulan-tahun">Your birthday :</label>
+       <input type="date" name="tanggal-bulan-tahun" value=""><br>
+
+       <label for="pwd">Password :</label>
+       <input type="password" name="pwd" value="" required><br>
+
+       <label for="centang">Are you interested to work with me?</label>
+       <input type="checkbox" name="centang" value=""><br>
+
+       <label for="range">How much are you interested with me?(in range)</label>
+       <input type="range" name="range" value=""><br>
+
+       <label for="nomor">How much are you interested with me?(in number)</label>
+       <input type="number" name="nomor" value=""><br>
+
+       <label for="nomor">How much are you interested with me?(in number scale 1-10)</label>
+       <input type="number" name="nomor" value="" required min="1" max="10"><br>
+
+
+
+       <input type="date" name="" value=""> <br>
+       <input type="button" name="" value="Ini tombol"> <br>
+       <input type="file" name="" value=""> <br>
+       <input type="image" name="" value="teks img" src="assets/img/click-img.png"> <br>
+
+<!-- Radio agar hanya bisa di pilih salah satu, maka beri "name" yang sama.
+jika beda "name" nya, maka bisa dipillih semua oleh user-->
+       <input type="radio" name="opsi" value="ABC">
+       <label for="opsi-1">Pilih opsi 1</label>
+
+       <input type="radio" name="opsi" value="XYZ">
+       <label for="opsi-2">Pilih opsi 2</label>
+<br>
+       <input type="submit" name="" value="Kirim"> <br>
+
+
+     </form>
+  </body>
+</html>
